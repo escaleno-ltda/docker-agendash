@@ -13,11 +13,11 @@ Docker Image for agendash
 
 ```sh
 docker run -d --restart=always --name mongo mongo
-docker run -d --restart=always --name agendash -p 3000:3000 --link mongo:mongo docker-agendash
+docker run -d --restart=always --name agendash -p 3000:3000 --link mongo:mongo lgatica/docker-agendash
 ```
 
 ## Run with a mongo uri
 
 ```sh
-docker run -d --restart=always --name agendash -p 3000:3000 -e MONGODB_URI=mongodb://192.168.1.2/agenda docker-agendash
+docker run -d --restart=always --name agendash -p 3000:3000 -e MONGODB_URI=mongodb://192.168.1.2/agenda lgatica/docker-agendash
 ```
