@@ -1,9 +1,8 @@
 # docker-agendash
 
+[![Image Layers](https://imagelayers.io/badge/lgatica/docker-agendash:latest.svg)](https://imagelayers.io/?images=lgatica/docker-agendash:latest 'Get your own badge on imagelayers.io')
 [![Docker Stars](https://img.shields.io/docker/stars/lgatica/docker-agendash.svg)](https://hub.docker.com/r/lgatica/docker-agendash/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/lgatica/docker-agendash.svg)](https://hub.docker.com/r/lgatica/docker-agendash/)
-[![Image Size](https://img.shields.io/imagelayers/image-size/lgatica/docker-agendash/latest.svg)](https://imagelayers.io/?images=lgatica/docker-agendash:latest)
-[![Image Layers](https://img.shields.io/imagelayers/layers/lgatica/docker-agendash/latest.svg)](https://imagelayers.io/?images=lgatica/docker-agendash:latest)
 
 Docker Image for agendash
 
