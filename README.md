@@ -2,7 +2,7 @@
 
 [![dockeri.co](http://dockeri.co/image/lgatica/docker-agendash)](https://hub.docker.com/r/lgatica/docker-agendash/)
 
-> Docker Image for agendash
+> Docker image for agendash
 
 ## Use
 
