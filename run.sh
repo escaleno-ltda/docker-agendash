@@ -16,4 +16,16 @@ else
   URI="mongodb://localhost:27017/agenda"
 fi
 
-agendash --db=$URI
+if [[ ${MONGODB_COLLECTION} ]]; then
+  COLLECTION=$MONGODB_COLLECTION
+else
+  COLLECTION="agendaJobs"
+fi
+
+if [[ ${MONGODB_PORT} ]]; then
+  PORT=$MONGODB_PORT
+else
+  PORT=3000
+fi
+
+agendash --db=$URI --collection=$COLLECTION --port=$PORT
