@@ -1,5 +1,7 @@
 # docker-agendash
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lgaticaq/docker-agendash.svg)](https://greenkeeper.io/)
+
 [![dockeri.co](http://dockeri.co/image/lgatica/docker-agendash)](https://hub.docker.com/r/lgatica/docker-agendash/)
 
 > Docker Image for agendash
