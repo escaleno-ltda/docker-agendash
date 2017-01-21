@@ -1,0 +1,22 @@
+{
+  "name": "docker-agendash",
+  "version": "0.4.0",
+  "description": "Docker Image for agendash",
+  "main": "run.sh",
+  "scripts": {
+    "start": "sh run.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgaticaq/docker-agendash.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lgaticaq/docker-agendash/issues"
+  },
+  "homepage": "https://github.com/lgaticaq/docker-agendash#readme",
+  "dependencies": {
+    "agendash": "0.4.0"
+  }
+}
