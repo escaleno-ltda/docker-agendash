@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/lgaticaq/docker-agendash#readme",
   "dependencies": {
-    "agendash": "0.4.0"
+    "agendash": "1.0.0"
   }
 }
